@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pocket Rol | Inicio</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            margin: 0; 
+            color: white; 
+            /* He cambiado el link por uno directo de una imagen de dados para que sí funcione el fondo */
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1553481187-be93c21490a9?q=80&w=2070&auto=format&fit=crop'); 
+            background-size: cover; 
+            background-attachment: fixed; 
+            min-height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        nav { background: rgba(0,0,0,0.9); padding: 20px; text-align: center; position: fixed; width: 100%; top: 0; z-index: 100; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        nav a:hover { color: #e74c3c; }
+
+        .contenedor-principal { 
+            margin-top: 100px; /* Espacio para que no lo tape el menú */
+            text-align: center; 
+            color: white; 
+            text-shadow: 2px 2px 5px black; 
+            padding: 40px 20px; 
+            max-width: 900px;
+        }
+        h1 { font-size: 3rem; margin-bottom: 20px; text-transform: uppercase; }
+        .texto-descripcion { font-size: 1.3rem; line-height: 1.6; background: rgba(0,0,0,0.3); padding: 20px; border-radius: 15px; }
+        
+        /* Estilo para la imagen central */
+        .img-central {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="manuales.html">MANUAL</a>
+        <a href="tablas.html">TABLAS</a>
+        <a href="nosotros.html">NOSOTROS</a>
+    </nav>
+
+    <div class="contenedor-principal">
+        <h1>POKET ROL: COSAS QUE TIENES QUE SABER Y CONSEJOS</h1>
+
+        <div class="texto-descripcion">
+            <p>Pocket Rol surgió con el objetivo de crear un juego de rol sencillo, que no dependa de tener que comprar tantas cosas para poder jugar. A diferencia de los nuevos juegos de rol, donde necesitas tableros, muchas fichas, hojas de personaje y manuales largos, nosotros elegimos la idea de lo práctico.</p>
+            
+            <p>La idea principal es que el sistema sea lo más comprimido y ligero posible, pero sin sacrificar la diversión ni la jugabilidad que buscamos en una buena partida. A pesar de ser un formato compacto, el juego tiene todo lo necesario para vivir una aventura completa: mapas para explorar, un catálogo de animales, distintos tipos de armas, armaduras y mucho más.</p>
+            
+            <p>Queremos que sea un juego intuitivo, pensado para que cualquiera pueda empezar a jugar en pocos minutos, sin complicaciones y en cualquier lugar. Enfocado en lo que realmente importa: pasar un buen rato con una buena historia.</p>
+        </div>
+    </div>
+</body>
+</html>
